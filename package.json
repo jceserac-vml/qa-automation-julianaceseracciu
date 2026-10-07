@@ -1,0 +1,25 @@
+{
+  "name": "qa-automation-julianaceseracciu",
+  "version": "1.0.0",
+  "description": "- Tengo 38 años, 2 hijos y vivo en Mercedes provincia de Bs As.\r - Mi espectativa principal sobre el curso de Automation es aprender y lograr automatizar gran parte del testeo que hacemos, no solo para ahorrar tiempo, sino tambien para sumar como experiencia para un futuro. \r - Me gusta mucho la musica, soy fanatica de La Renga, me gusta correr y andar en bicileta.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jceserac-vml/qa-automation-julianaceseracciu.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jceserac-vml/qa-automation-julianaceseracciu/issues"
+  },
+  "homepage": "https://github.com/jceserac-vml/qa-automation-julianaceseracciu#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.3",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
