@@ -2,18 +2,18 @@ import { test, expect } from '@playwright/test';
 
 test.describe('Parte 2 — Tests sobre TodoMVC', () => {
 
-  // Ejecutar navegación previa a cada test
+  // URL del sitio de practica
   test.beforeEach(async ({ page }) => {
     await page.goto('https://demo.playwright.dev/todomvc');
   });
 
   // Test 1: Navegar al sitio y verificar el título de la página
-  test('Test 1: verificar el título de la página', async ({ page }) => {
+  test('TC-001', async ({ page }) => {
     await expect(page).toHaveTitle(/TodoMVC/);
   });
 
   // Test 2: Agregar una tarea nueva y verificar que aparece en la lista
-  test('Test 2: agregar una nueva tarea', async ({ page }) => {
+  test('TC-002', async ({ page }) => {
     const todoInput = page.getByPlaceholder('What needs to be done?');
 
     // Escribir la tarea y presionar Enter
@@ -25,7 +25,7 @@ test.describe('Parte 2 — Tests sobre TodoMVC', () => {
   });
 
   // Test 3: Marcar una tarea como completada y verificar su cambio de estado
-  test('Test 3: marcar una tarea como completada', async ({ page }) => {
+  test('TC-003', async ({ page }) => {
     const todoInput = page.getByPlaceholder('What needs to be done?');
 
     // Crear una tarea
